@@ -2,8 +2,8 @@ from feedparser import parse
 
 feed = parse("https://aaronluna.dev/blog/index.xml").entries
 post_list = [
-    f"""- [{feed[i].title}]({feed[i].link})\n({feed[i].published}) {feed[i].description}\n"""
-    for i in range(4)]
+    f"""- [{feed[i].title}]({feed[i].link})  \n**{feed[i].published}** &mdash; {feed[i].description}\n"""
+    for i in range(3)]
 
 readme_lines = []
 with open("README.md", "r", encoding='utf8') as rd:
