@@ -23,7 +23,7 @@ def preserve_readme():
             break
     return readme_lines
 
-def update_blog_posts_on_readme(self, post_count=3):
+def update_blog_posts_on_readme(post_count=3):
     readme_lines = preserve_readme()
     post_list = get_recent_posts(post_count)
     with open("README.md", "w", encoding='utf8') as rd:
