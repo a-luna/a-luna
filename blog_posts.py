@@ -4,11 +4,10 @@ BLOG_URL = "https://aaronluna.dev/blog/"
 BLOG_RSS = f"{BLOG_URL}index.xml"
 README_COMMENT = "<!--blog_posts-->"
 
-feed = parse(BLOG_RSS).entries
 post_list = [
     f"""- [{f.title}]({f.link})  \n**{f.published}** &mdash; {f.description}\n"""
     for num, f
-    in enumerate(feed, start=1)
+    in enumerate(parse(BLOG_RSS).entries, start=1)
     if num <= 3
 ]
 
