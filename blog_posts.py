@@ -26,7 +26,8 @@ def get_readme_content():
 
 def get_recent_posts(post_count):
     all_blog_posts = parse(BLOG_RSS).entries
-    return [format_blog_post_as_markdown(post) for post in all_blog_posts[:3]]
+    post_count = len(all_blog_posts) if len(all_blog_posts) < post_count else post_count
+    return [format_blog_post_as_markdown(post) for post in all_blog_posts[:post_count]]
 
 def format_blog_post_as_markdown(post):
     return (
