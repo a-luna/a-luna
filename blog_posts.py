@@ -5,32 +5,33 @@ BLOG_RSS = f"{BLOG_URL}index.xml"
 README_COMMENT = "<!--blog_posts-->"
 
 
-def get_recent_posts(post_count):
-    return [
-        f"- [{f.title}]({f.link})  \n**{f.published}** &mdash; {f.description}\n"
-        for num, f
-        in enumerate(parse(BLOG_RSS).entries, start=1)
-        if num <= post_count
-    ]
+def update_recent_blog_posts(post_count=3):
+    readme_content = get_readme_content()
+    post_list = get_recent_posts(post_count)
+    with open("README.md", "w", encoding='utf8') as readme:
+        readme.writelines(readme_content)
+        readme.write(f"{README_COMMENT}\n")
+        readme.write(f"## [Recent Blog Posts]({BLOG_URL})\n")
+        readme.write("\n".join(post_list))
 
-def preserve_readme():
+def get_readme_content():
     readme_lines = []
-    with open("README.md", "r", encoding='utf8') as rd:
-        for line in rd:
+    with open("README.md", "r", encoding='utf8') as readme:
+        for line in readme:
             if README_COMMENT not in line:
                 readme_lines.append(line)
                 continue
             break
     return readme_lines
 
-def update_blog_posts_on_readme(post_count=3):
-    readme_lines = preserve_readme()
-    post_list = get_recent_posts(post_count)
-    with open("README.md", "w", encoding='utf8') as rd:
-        rd.writelines(readme_lines)
-        rd.write(f"{README_COMMENT}\n")
-        rd.write(f"## [Recent Blog Posts]({BLOG_URL})\n")
-        rd.write("\n".join(post_list))
-        
+def get_recent_posts(post_count):
+    all_blog_posts = parse(BLOG_RSS).entries
+    return [format_blog_post_as_markdown(post) for post in all_blog_posts[:3]]
+
+def format_blog_post_as_markdown(post):
+    return (
+        f"- [{post.title}]({post.link})  \n"
+        f"**{post.published}** &mdash; {post.description}\n"
+    )
 if __name__ == "__main__":
-    update_blog_posts_on_readme()
+    update_recent_blog_posts()
