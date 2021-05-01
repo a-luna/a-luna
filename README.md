@@ -1,6 +1,6 @@
 [![a-luna's github stats](https://github-readme-stats.vercel.app/api?username=a-luna&show_icons=true&icon_color=000000)](https://github.com/a-luna)
 
-⌨️ What Type of Code Did I Write This Week?
+👨🏽‍💻 What Type of Code Did I Write This Week?
 <!--START_SECTION:waka-->
 ```text
 Svelte       27 hrs 18 mins  ██████████████▓░░░░░░░░░░   59.22 % 
