@@ -1,3 +1,6 @@
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 [![a-luna's github stats](https://github-readme-stats.vercel.app/api?username=a-luna&show_icons=true&icon_color=000000)](https://github.com/a-luna)
 
 <!--blog_posts-->
