@@ -1,4 +1,11 @@
 <!--START_SECTION:waka-->
+```text
+Svelte       27 hrs 18 mins  ██████████████▓░░░░░░░░░░   59.22 % 
+Python       8 hrs 41 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.86 % 
+Markdown     5 hrs 7 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   11.13 % 
+CSS          2 hrs 15 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   04.91 % 
+TypeScript   1 hr 16 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
+```
 <!--END_SECTION:waka-->
 
 [![a-luna's github stats](https://github-readme-stats.vercel.app/api?username=a-luna&show_icons=true&icon_color=000000)](https://github.com/a-luna)
