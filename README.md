@@ -1,3 +1,6 @@
+[![a-luna's github stats](https://github-readme-stats.vercel.app/api?username=a-luna&show_icons=true&icon_color=000000)](https://github.com/a-luna)
+
+⌨️ What Type of Code Did I Write This Week?
 <!--START_SECTION:waka-->
 ```text
 Svelte       27 hrs 18 mins  ██████████████▓░░░░░░░░░░   59.22 % 
@@ -7,8 +10,6 @@ CSS          2 hrs 15 mins   █▒░░░░░░░░░░░░░░░
 TypeScript   1 hr 16 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
 ```
 <!--END_SECTION:waka-->
-
-[![a-luna's github stats](https://github-readme-stats.vercel.app/api?username=a-luna&show_icons=true&icon_color=000000)](https://github.com/a-luna)
 
 <!--blog_posts-->
 ## [Recent Blog Posts](https://aaronluna.dev/blog/)
