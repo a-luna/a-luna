@@ -3,7 +3,7 @@
 👨🏽‍💻 [What Type of Code Did I Write This Week?](https://wakatime.com/@aaronluna)
 <!--START_SECTION:waka-->
 ```text
-Week: 29 January, 2022 - 04 February, 2022
+Week: 30 January, 2022 - 05 February, 2022
 
 Svelte       25 hrs 27 mins  ███████████████████▒░░░░░   76.97 % 
 TypeScript   6 hrs 27 mins   █████░░░░░░░░░░░░░░░░░░░░   19.53 % 
