@@ -4,13 +4,13 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 11 March 2022 - To: 18 March 2022
+From: 12 March 2022 - To: 19 March 2022
 
-Svelte       30 hrs 42 mins  █████████████████░░░░░░░░   67.70 %
-TypeScript   8 hrs 8 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.96 %
-CSS          4 hrs 19 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.54 %
-JSON         1 hr 17 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.86 %
-Other        40 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.49 %
+Svelte       26 hrs 4 mins   ████████████████░░░░░░░░░   64.04 %
+TypeScript   7 hrs 38 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.76 %
+CSS          4 hrs 33 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.22 %
+JSON         1 hr 21 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.33 %
+Other        55 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.28 %
 ```
 
 <!--END_SECTION:waka-->
