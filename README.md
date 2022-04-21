@@ -4,11 +4,11 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 12 April 2022 - To: 19 April 2022
+From: 13 April 2022 - To: 20 April 2022
 
-Svelte       5 hrs 19 mins   █████████████████████▓░░░   86.45 %
-CSS          34 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.47 %
-TypeScript   15 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.08 %
+Svelte       5 hrs 24 mins   █████████████████████▓░░░   86.64 %
+CSS          34 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.34 %
+TypeScript   15 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.03 %
 ```
 
 <!--END_SECTION:waka-->
