@@ -4,11 +4,11 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 09 May 2022 - To: 16 May 2022
+From: 10 May 2022 - To: 17 May 2022
 
-TypeScript   10 hrs 50 mins  █████████████▒░░░░░░░░░░░   53.50 %
-Svelte       6 hrs 46 mins   ████████▒░░░░░░░░░░░░░░░░   33.45 %
-Other        1 hr 17 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.38 %
+TypeScript   9 hrs           ████████████▓░░░░░░░░░░░░   50.66 %
+Svelte       6 hrs 10 mins   ████████▓░░░░░░░░░░░░░░░░   34.75 %
+Other        1 hr 16 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   07.20 %
 ```
 
 <!--END_SECTION:waka-->
