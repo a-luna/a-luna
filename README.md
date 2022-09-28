@@ -4,14 +4,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 19 September 2022 - To: 26 September 2022
+From: 20 September 2022 - To: 27 September 2022
 
-TypeScript   9 hrs 58 mins   █████████████░░░░░░░░░░░░   51.40 %
-Svelte       4 hrs 35 mins   ██████░░░░░░░░░░░░░░░░░░░   23.66 %
-JSON         2 hrs 59 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.45 %
-JavaScript   51 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 %
-TOML         23 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.06 %
-Other        12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.09 %
+TypeScript   8 hrs 45 mins   █████████████▒░░░░░░░░░░░   52.71 %
+Svelte       3 hrs 44 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.51 %
+JSON         2 hrs 35 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.55 %
+JavaScript   46 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.63 %
+TOML         12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.26 %
+Other        11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.13 %
 ```
 
 <!--END_SECTION:waka-->
