@@ -4,12 +4,12 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 26 December 2022 - To: 02 January 2023
+From: 27 December 2022 - To: 03 January 2023
 
-TypeScript   5 hrs 50 mins   ████████████████░░░░░░░░░   64.38 %
-Svelte       1 hr 34 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.41 %
-JSON         34 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.31 %
-Other        20 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.80 %
+TypeScript   8 hrs 22 mins   █████████████████░░░░░░░░   67.77 %
+Svelte       2 hrs 6 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.03 %
+JSON         45 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.10 %
+Other        20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.80 %
 ```
 
 <!--END_SECTION:waka-->
