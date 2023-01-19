@@ -4,14 +4,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 10 January 2023 - To: 17 January 2023
+From: 11 January 2023 - To: 18 January 2023
 
-Python       22 hrs 28 mins  ██████████████████▒░░░░░░   72.85 %
-CSS          2 hrs 32 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.22 %
-TypeScript   1 hr 30 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   04.92 %
-Svelte       1 hr 12 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.93 %
-Markdown     53 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.88 %
-JSON         40 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.21 %
+Python       21 hrs 5 mins   ███████████████████░░░░░░   75.93 %
+TypeScript   1 hr 30 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.46 %
+Svelte       1 hr 12 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.37 %
+CSS          1 hr 2 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.73 %
+Markdown     58 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 %
+JSON         24 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.46 %
 ```
 
 <!--END_SECTION:waka-->
