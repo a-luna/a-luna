@@ -4,13 +4,11 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 28 February 2023 - To: 07 March 2023
+From: 01 March 2023 - To: 08 March 2023
 
-Python       26 hrs 19 mins  ████████████████████▒░░░░   80.80 %
-CSS          5 hrs 27 mins   ████▒░░░░░░░░░░░░░░░░░░░░   16.76 %
-Markdown     13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.67 %
-TOML         12 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 %
-Other        11 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.59 %
+Python       19 hrs 46 mins  ███████████████████░░░░░░   76.07 %
+CSS          5 hrs 46 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.21 %
+Other        11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.74 %
 ```
 
 <!--END_SECTION:waka-->
