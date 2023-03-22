@@ -4,14 +4,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 13 March 2023 - To: 20 March 2023
+From: 14 March 2023 - To: 21 March 2023
 
-TypeScript   32 hrs 5 mins   ████████████████▒░░░░░░░░   65.62 %
-CSS          5 hrs 13 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.67 %
-Python       3 hrs 46 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 %
-JavaScript   3 hrs 7 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.37 %
-Svelte       3 hrs           █▓░░░░░░░░░░░░░░░░░░░░░░░   06.16 %
-Markdown     37 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.26 %
+TypeScript   35 hrs 34 mins  ████████████████▓░░░░░░░░   66.50 %
+Svelte       6 hrs 59 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.06 %
+CSS          6 hrs 52 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   12.84 %
+JavaScript   1 hr 3 mins     ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.98 %
+Python       59 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.87 %
+JSON         42 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.33 %
 ```
 
 <!--END_SECTION:waka-->
