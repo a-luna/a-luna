@@ -4,13 +4,12 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 14 April 2023 - To: 21 April 2023
+From: 15 April 2023 - To: 22 April 2023
 
-Svelte       6 hrs 28 mins   ████████████▓░░░░░░░░░░░░   50.45 %
-CSS          3 hrs 18 mins   ██████▒░░░░░░░░░░░░░░░░░░   25.78 %
-Python       1 hr 5 mins     ██░░░░░░░░░░░░░░░░░░░░░░░   08.51 %
-TypeScript   59 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.75 %
-Other        24 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.17 %
+Svelte       6 hrs 5 mins    ████████████████▒░░░░░░░░   64.92 %
+CSS          1 hr 38 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.57 %
+Python       52 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.28 %
+Other        20 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 %
 ```
 
 <!--END_SECTION:waka-->
