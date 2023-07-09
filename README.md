@@ -4,13 +4,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 30 June 2023 - To: 07 July 2023
+From: 01 July 2023 - To: 08 July 2023
 
-Python       13 hrs 18 mins  █████████░░░░░░░░░░░░░░░░   35.46 %
-Svelte       4 hrs 12 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.20 %
-Docker       4 hrs 10 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.11 %
-CSS          3 hrs 25 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.11 %
-Other        2 hrs 30 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.70 %
+Python       12 hrs 23 mins  ████████▒░░░░░░░░░░░░░░░░   33.73 %
+Docker       4 hrs 23 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.95 %
+Other        3 hrs 47 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.33 %
+Svelte       3 hrs 9 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.58 %
+JSON         2 hrs 58 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.10 %
 ```
 
 <!--END_SECTION:waka-->
