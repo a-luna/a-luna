@@ -1,7 +1,7 @@
 from feedparser import parse
 
-BLOG_URL = "https://aaronluna.dev/blog/"
-BLOG_RSS = f"{BLOG_URL}index.xml"
+BLOG_URL = "https://portfolio.aaronluna.dev/"
+BLOG_RSS = f"{BLOG_URL}rss.xml"
 RECENT_POSTS_BOUNDARY = "<!--blog_posts-->"
 
 
