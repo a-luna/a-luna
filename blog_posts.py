@@ -1,7 +1,11 @@
-from feedparser import parse
+import requests
+from datetime import date
+from dateutil import parser
+from lxml import etree
 
-BLOG_URL = "https://portfolio.aaronluna.dev/"
-BLOG_RSS = f"{BLOG_URL}rss.xml"
+DATE_MONTH_NAME = "%b %d %Y"
+BLOG_URL = "https://portfolio.aaronluna.dev/blog"
+BLOG_RSS = "https://portfolio.aaronluna.dev/rss.xml"
 RECENT_POSTS_BOUNDARY = "<!--blog_posts-->"
 
 
@@ -27,16 +31,33 @@ def get_readme_content():
 
 
 def get_recent_posts(post_count):
-    all_posts = parse(BLOG_RSS).entries
-    all_posts.sort(key=lambda x: x.published, reverse=True)
+    response = requests.get(BLOG_RSS)
+    response.raise_for_status()
+    xml = etree.XML(response.text, parser=None)
+    all_post_nodes = xml.iterfind(".//item")
+    all_posts = [parse_post_details(post) for post in all_post_nodes]
+    all_posts = sorted(all_posts, key=lambda x: x["pub_date"], reverse=True)
+    for post in all_posts:
+        post.pop("pub_date")
     post_count = post_count if len(all_posts) >= post_count else len(all_posts)
-    return [format_blog_post_as_markdown(post) for post in all_posts[:post_count]]
+    formatted = [format_blog_post_as_markdown(post) for post in all_posts[:post_count]]
 
+
+def parse_post_details(item):
+    pub_date = item.findtext("pubDate")
+    pub_date = parser.parse(pub_date).date() if pub_date else date.min
+    return {
+        "title": item.findtext("title"),
+        "description": item.findtext("description"),
+        "link": item.findtext("link"),
+        "pub_date": pub_date,
+        "published": pub_date.strftime(DATE_MONTH_NAME),
+    }
 
 def format_blog_post_as_markdown(post):
     return (
-        f"- [{post.title}]({post.link})  \n"
-        f"**{post.published}** &mdash; {post.description}\n"
+        f'- [{post["title"]}]({post["link"]})  \n'
+        f'**{post["published"]}** &mdash; {post["description"]}\n'
     )
 
 
