@@ -40,7 +40,7 @@ def get_recent_posts(post_count):
     for post in all_posts:
         post.pop("pub_date")
     post_count = post_count if len(all_posts) >= post_count else len(all_posts)
-    formatted = [format_blog_post_as_markdown(post) for post in all_posts[:post_count]]
+    return [format_blog_post_as_markdown(post) for post in all_posts[:post_count]]
 
 
 def parse_post_details(item):
