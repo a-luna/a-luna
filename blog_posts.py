@@ -12,11 +12,7 @@ RECENT_POSTS_BOUNDARY = "<!--blog_posts-->"
 def update_recent_blog_posts(post_count=3):
     readme_content = get_readme_content()
     recent_posts = get_recent_posts(post_count)
-    with open("README.md", "w", encoding="utf8") as readme:
-        readme.writelines(readme_content)
-        readme.write(f"{RECENT_POSTS_BOUNDARY}\n")
-        readme.write(f"## [Recent Blog Posts]({BLOG_URL})\n")
-        readme.write("\n".join(recent_posts))
+    update_readme_file(readme_content, recent_posts)
 
 
 def get_readme_content():
@@ -31,16 +27,23 @@ def get_readme_content():
 
 
 def get_recent_posts(post_count):
-    response = requests.get(BLOG_RSS)
-    response.raise_for_status()
-    xml = etree.XML(response.text, parser=None)
-    all_post_nodes = xml.iterfind(".//item")
-    all_posts = [parse_post_details(post) for post in all_post_nodes]
-    all_posts = sorted(all_posts, key=lambda x: x["pub_date"], reverse=True)
+    all_posts = get_all_posts()
     for post in all_posts:
         post.pop("pub_date")
     post_count = post_count if len(all_posts) >= post_count else len(all_posts)
     return [format_blog_post_as_markdown(post) for post in all_posts[:post_count]]
+
+
+def get_all_posts():
+    rss_xml = get_rss_xml()
+    all_posts = [parse_post_details(post) for post in rss_xml.iterfind(".//item")]
+    return sorted(all_posts, key=lambda x: x["pub_date"], reverse=True)
+
+
+def get_rss_xml():
+    response = requests.get(BLOG_RSS)
+    response.raise_for_status()
+    return etree.XML(response.text, parser=None)
 
 
 def parse_post_details(item):
@@ -59,6 +62,14 @@ def format_blog_post_as_markdown(post):
         f'- [{post["title"]}]({post["link"]})  \n'
         f'**{post["published"]}** &mdash; {post["description"]}\n'
     )
+
+
+def update_readme_file(readme_content, recent_posts):
+    with open("README.md", "w", encoding="utf8") as readme:
+        readme.writelines(readme_content)
+        readme.write(f"{RECENT_POSTS_BOUNDARY}\n")
+        readme.write(f"## [Recent Blog Posts]({BLOG_URL})\n")
+        readme.write("\n".join(recent_posts))
 
 
 if __name__ == "__main__":
