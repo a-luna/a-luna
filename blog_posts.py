@@ -1,5 +1,7 @@
-import requests
+import textwrap
 from datetime import date
+
+import requests
 from dateutil import parser
 from lxml import etree
 
@@ -59,9 +61,10 @@ def parse_post_details(item):
 
 
 def format_blog_post_as_markdown(post):
-    return (
-        f'- [{post["title"]}]({post["link"]})  \n'
-        f'**{post["published"]}** &mdash; {post["description"]}\n'
+    return textwrap.dedent(
+        f"""- [{post["title"]}]({post["link"]})
+            **{post["published"]}** &mdash; {post["description"]}
+        """
     )
 
 
