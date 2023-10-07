@@ -57,6 +57,7 @@ def parse_post_details(item):
         "published": pub_date.strftime(DATE_MONTH_NAME),
     }
 
+
 def format_blog_post_as_markdown(post):
     return (
         f'- [{post["title"]}]({post["link"]})  \n'
