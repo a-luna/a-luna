@@ -4,10 +4,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 November 2023 - To: 08 November 2023
+From: 02 November 2023 - To: 09 November 2023
 
-Python   58 mins         ███████████████████████▓░   94.28 %
-JSON     3 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.72 %
+Python   44 mins         ███████████████████████░░   92.63 %
+JSON     3 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.37 %
 ```
 
 <!--END_SECTION:waka-->
