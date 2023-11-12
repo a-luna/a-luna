@@ -4,10 +4,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 November 2023 - To: 09 November 2023
+From: 04 November 2023 - To: 11 November 2023
 
-Python   44 mins         ███████████████████████░░   92.63 %
-JSON     3 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.37 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
