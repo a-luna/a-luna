@@ -4,13 +4,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 24 December 2023 - To: 31 December 2023
+From: 25 December 2023 - To: 01 January 2024
 
-Python       12 hrs 9 mins   ███████████████████░░░░░░   76.50 %
-CSS          1 hr 20 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.39 %
-TypeScript   41 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 %
-Svelte       40 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.22 %
-Markdown     28 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.00 %
+Python       13 hrs 54 mins  ██████████████████████░░░   87.92 %
+CSS          50 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.34 %
+Markdown     28 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.01 %
+Bash         14 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
+CSV          13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.37 %
 ```
 
 <!--END_SECTION:waka-->
