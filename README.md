@@ -4,13 +4,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 20 January 2024 - To: 27 January 2024
+From: 21 January 2024 - To: 28 January 2024
 
-Python       16 hrs 11 mins  ████████████████████░░░░░   79.81 %
-Svelte       1 hr 37 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.05 %
-TypeScript   1 hr 6 mins     █▒░░░░░░░░░░░░░░░░░░░░░░░   05.43 %
-JSON         20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.66 %
-HTML         17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.43 %
+Python       15 hrs 26 mins  ██████████████████████░░░   87.76 %
+TypeScript   42 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 %
+Svelte       27 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.61 %
+JSON         20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.92 %
+Docker       12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.16 %
 ```
 
 <!--END_SECTION:waka-->
