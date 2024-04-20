@@ -4,11 +4,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 11 April 2024 - To: 18 April 2024
+From: 12 April 2024 - To: 19 April 2024
 
-Svelte   25 mins         █████████████▓░░░░░░░░░░░   54.76 %
-Python   20 mins         ███████████░░░░░░░░░░░░░░   44.21 %
-Text     0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.03 %
+Svelte   25 mins         █████████████████▒░░░░░░░   68.68 %
+Python   11 mins         ███████▓░░░░░░░░░░░░░░░░░   31.32 %
 ```
 
 <!--END_SECTION:waka-->
