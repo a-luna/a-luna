@@ -4,7 +4,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 April 2024 - To: 24 April 2024
+From: 18 April 2024 - To: 25 April 2024
 
 Svelte       4 hrs 10 mins   ███████████████▒░░░░░░░░░   60.81 %
 TypeScript   1 hr 22 mins    █████░░░░░░░░░░░░░░░░░░░░   19.92 %
