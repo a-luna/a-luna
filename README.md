@@ -4,11 +4,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 June 2024 - To: 12 June 2024
+From: 06 June 2024 - To: 13 June 2024
 
-CSS          26 mins         █████████████████████▒░░░   85.36 %
-Python       3 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.78 %
-TypeScript   1 min           █▒░░░░░░░░░░░░░░░░░░░░░░░   04.87 %
+CSS      10 mins         ███████████████████▒░░░░░   77.54 %
+Python   3 mins          █████▓░░░░░░░░░░░░░░░░░░░   22.46 %
 ```
 
 <!--END_SECTION:waka-->
