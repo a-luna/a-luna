@@ -4,13 +4,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 August 2024 - To: 20 August 2024
+From: 14 August 2024 - To: 21 August 2024
 
-Python       6 hrs 56 mins   ██████████████████████▒░░   88.97 %
-JavaScript   16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 %
-Bash         8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.83 %
-JSON         8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.79 %
-Svelte       6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.46 %
+Python       5 hrs 35 mins   ███████████████████▒░░░░░   76.85 %
+Svelte       41 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.46 %
+JavaScript   16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 %
+Bash         8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.96 %
+Text         8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.84 %
 ```
 
 <!--END_SECTION:waka-->
