@@ -4,13 +4,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 06 September 2024 - To: 13 September 2024
+From: 07 September 2024 - To: 14 September 2024
 
-Svelte       1 hr            ███████▒░░░░░░░░░░░░░░░░░   29.34 %
-TypeScript   48 mins         ██████░░░░░░░░░░░░░░░░░░░   23.66 %
-Python       42 mins         █████░░░░░░░░░░░░░░░░░░░░   20.56 %
-CSS          28 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.82 %
-Other        15 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.30 %
+Svelte       1 hr            ███████▓░░░░░░░░░░░░░░░░░   31.31 %
+TypeScript   48 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.25 %
+Python       41 mins         █████▒░░░░░░░░░░░░░░░░░░░   21.19 %
+CSS          28 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.75 %
+JSON         6 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 %
 ```
 
 <!--END_SECTION:waka-->
