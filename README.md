@@ -4,10 +4,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 October 2024 - To: 08 October 2024
+From: 02 October 2024 - To: 09 October 2024
 
-Python   2 hrs 22 mins   ████████████████████████▒   97.55 %
-Other    3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.45 %
+Python   1 hr 6 mins     █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
