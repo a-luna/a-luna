@@ -4,9 +4,12 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 January 2025 - To: 08 January 2025
+From: 02 January 2025 - To: 09 January 2025
 
-Python   29 mins         █████████████████████████   100.00 %
+Python       2 hrs 4 mins    ████████████████████████░   96.47 %
+Bash         3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.86 %
+JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.44 %
+JavaScript   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 %
 ```
 
 <!--END_SECTION:waka-->
