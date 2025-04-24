@@ -4,12 +4,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 15 April 2025 - To: 22 April 2025
+From: 16 April 2025 - To: 23 April 2025
 
-Svelte       3 hrs 40 mins   ███████████████████████░░   91.45 %
-TypeScript   15 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.56 %
-Other        4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.68 %
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 %
+Svelte       3 hrs 19 mins   ██████████████████▓░░░░░░   75.15 %
+Python       50 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.93 %
+TypeScript   10 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 %
+Other        4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.65 %
+Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.28 %
 ```
 
 <!--END_SECTION:waka-->
