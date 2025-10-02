@@ -4,11 +4,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 23 September 2025 - To: 30 September 2025
+From: 24 September 2025 - To: 01 October 2025
 
-Python      1 hr 14 mins    ███████████████████████▒░   93.28 %
-Terraform   4 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.37 %
-Bash        1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.35 %
+Python   40 mins         █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
