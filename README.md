@@ -4,11 +4,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 03 November 2025 - To: 10 November 2025
+From: 04 November 2025 - To: 11 November 2025
 
-Python   10 hrs 28 mins  ████████████████████████░   96.07 %
-HTML     24 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.80 %
-JSON     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
+Python   7 hrs 4 mins    ████████████████████████▓   98.61 %
+HTML     5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.38 %
 Other    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
 ```
 
