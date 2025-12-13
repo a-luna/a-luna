@@ -4,11 +4,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 03 December 2025 - To: 10 December 2025
+From: 05 December 2025 - To: 12 December 2025
 
-Python       22 hrs 36 mins  █████████████████████████   99.63 %
-C++          3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.22 %
+Python       22 hrs 43 mins  █████████████████████████   99.84 %
 TypeScript   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.14 %
+C++          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 %
 JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
